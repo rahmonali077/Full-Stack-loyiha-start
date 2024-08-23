@@ -1,0 +1,59 @@
+/* Container for article details */
+.article-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    color: #333;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .article-detail:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50; /* Darker color for header */
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  .date {
+    font-size: 0.9rem;
+    color: #7f8c8d; /* Subtle gray */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #34495e; /* Darker gray for better readability */
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .body {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #2c3e50;
+    padding: 15px;
+    border-top: 1px solid #ecf0f1; /* Light border for separation */
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    color: #e74c3c; /* Red for error */
+    font-size: 1.2rem;
+    margin: 30px 0;
+    font-weight: 600;
+  }
+  
+  .loading {
+    color: #3498db; /* Blue for loading */
+  }
+  
